@@ -1,5 +1,5 @@
 <?php
-$url = "https://api.coindesk.com/v1/bpi/currentprice/USD.json";
+$url = "http://api.coindesk.com/v1/bpi/currentprice/USD.json";
 $response =file_get_contents($url);
 if ($response == FALSE) {
     die('eror bro');
