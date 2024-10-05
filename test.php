@@ -7,7 +7,7 @@ if ($response == FALSE) {
 }
 
 $data = json_decode($response, true);
-print_r($data);
+//print_r($data);
 
 
 ?>
